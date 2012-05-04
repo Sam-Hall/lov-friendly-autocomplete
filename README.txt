@@ -67,7 +67,7 @@ Known issue #1: Unfortunately this plugin actually conflicts with the standard "
 
 Known issue #2: It seems there is a bug in APEX_PLUGIN_UTIL that effectively prevents LOV's containing long concatenated columns unless using a column alias. Any more than 30 character identifier and the results wont get returned.
 
-The control will turn pink if there is a problem. Further details will be displayed in an alert box in DUBUG mode or otherwise by double clicking on the control.
+The control will turn pink if there is a problem. Further details will be displayed in an alert box in DEBUG mode or otherwise by double clicking on the control.
 
 To keep the control simple, there is no "Escape Output" option on this item (output is always escaped). Same goes for "LOV Display NULL", that's another feature left out intentionally as it seemed only to complicate things and not really add any necessary functionality (makes more sense on something like a select list, but not here). There are currently no plans to add these features.
 
